@@ -6,7 +6,9 @@ class Description extends React.Component {
     return (
       <div className='Description'>
         <div className='Description-content'>
-          <h1>Cristiano Pita</h1>
+        <div className='name'>
+          <h1>Cristiano Pita</h1><div className='detail'></div>
+        </div>
           <p>
             Sou desenvolvedor web atualmente estudando na trybe, cursando o
             modulo de back-end. Por formação sou designer e busco integrar meus
