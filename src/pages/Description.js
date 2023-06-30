@@ -6,6 +6,10 @@ class Description extends React.Component {
     return (
       <div className='Description'>
         <div className='Description-content'>
+        <div>
+            <img src={profile} alt='foto de Cristiano Pita'></img>
+            <div className='Profile-retangle'></div>
+          </div>
         <div className='name'>
           <h1>Cristiano Pita</h1><div className='detail'></div>
         </div>
@@ -26,8 +30,6 @@ class Description extends React.Component {
               <li>Sass</li>
             </ul>
           </div>
-          <img src={profile} alt='foto de Cristiano Pita'></img>
-          <div className='Profile-retangle'></div>
         </div>
       </div>
     );
