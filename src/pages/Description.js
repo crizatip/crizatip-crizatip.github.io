@@ -6,18 +6,16 @@ class Description extends React.Component {
     return (
       <div className='Description'>
         <div className='Description-content'>
-        <div>
+          <div>
             <img src={profile} alt='foto de Cristiano Pita'></img>
             <div className='Profile-retangle'></div>
           </div>
-        <div className='name'>
-          <h1>Cristiano Pita</h1><div className='detail'></div>
-        </div>
+          <div className='name'>
+            <h1>Cristiano Pita</h1>
+            <div className='detail'></div>
+          </div>
           <p>
-            Sou desenvolvedor web atualmente estudando na trybe, cursando o
-            modulo de back-end. Por formação sou designer e busco integrar meus
-            conhecimentos projetuais e métodologias de design com
-            desenvolvimento web.
+          Sou um desenvolvedor web full-stack formado pela Trybe, com graduação em design. Meu objetivo é integrar habilidades projetuais e metodologias de design ao desenvolvimento web, com o intuito de criar soluções completas e visualmente atraentes.
           </p>
           <div className='Tecnologias'>
             <h3>Tecnologias que mais utilizo:</h3>
