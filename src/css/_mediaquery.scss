@@ -1,33 +1,41 @@
-@media screen and ( max-width: 500px ){
+@media screen and ( max-width: 393px ){
     body{
-        width: 500px;
+        width: 393px;
         margin: 0px auto;
     }
     
-    
+   
     .Description{
         position: relative;
         margin: 100px auto;
+        margin-bottom: 60px;
         display: flex;
         align-items: center;
         flex-direction: column;
+
     }
     
     
     .Description-content{
-        max-width: 500px;
+        h1{
+            padding-left: 16px;
+            margin-bottom: 30px;
+        }
+    
+        max-width: 393px;
         display: flex;
         position: relative;
         margin: 0;
-        width: 500px;
+        width: 393px;
         flex-direction: column;
         align-items: center;
         img{
            position: relative;
            margin:0px, auto;
+           margin-bottom: 50px;
            right: 0;
-           z-index: 0;
-           height: 300px;
+           z-index: 1;
+           height: 200px;
         }
         p{
             padding: 0;
@@ -36,14 +44,16 @@
             text-align: center;
 
         }
-        div{
-            width: fit-content
-        }
     }
 
     .Profile-retangle{
         position: absolute;
-    
+        height: 180px;
+        width: 180px;
+        top: 35px;
+        left: 80px;
+        z-index: 0;
+        margin: 0;
     }
 
 
@@ -59,7 +69,7 @@
             margin-bottom: 8px;
         }
         background-color: $secondary;
-        padding: 0px 0px;
+        padding: 10px 50px;
     }
 
 
@@ -67,21 +77,24 @@
 
 
 div{
-    max-width: 500px;
+    max-width: 393px;
 }
 
 .title{ 
     color: $primary;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     margin-bottom: 50px;
-    width: 500px;
+    width: 393px;
     font-size: 2.5em;
-    margin-left: 30%;
+    margin: 0px 0px;
+    margin-bottom: 30px;
 }
 
 .Projects{
     position: relative;
-    max-width: 500px;
+    max-width: 393px;
     padding: 0;    
     display: flex;
     flex-direction: column;
@@ -89,7 +102,7 @@ div{
 }  
 
 .Project{
-    width: 500px;
+    width: 393px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -98,18 +111,30 @@ div{
     padding: 30px;
     color: black;
     padding: 0;
-    margin: 0px, auto;   
+    margin: 0px, auto;
+    margin-bottom: 50px;   
     div{
-        display: flex;
+        display:contents;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
+        span{
+            color: $primary;
+            position: absolute;
+            display: flex;
+            bottom: 20px;
+            margin: 0px auto;
+            word-spacing: 8px;
+            justify-content: center;
+        }
     }
     h3{
-        display: inline-block;
-        margin-left: 15px;
+        order: 1;
+        margin-left: 0px;
+        margin-bottom: 10px;
         font-weight: 700;
-        font-size: 2em;
-        width: 200px;
+        font-size: 1.7em;
+        text-align: center;
+        width: 300px;
     }
     p{
         background-color: $secondary;
@@ -121,19 +146,13 @@ div{
         float: right;
         padding: 20px;
         line-height: 1.3em;
-    }
-
-    span{
-        color: $primary;
-        position: absolute;
-        bottom: 35px;
-        margin: 0px 20px;
-        word-spacing: 8px;
+        order: -1;
     }
 
     img{
-        height: 70%;
-        width: 70%;
+        height: 100%;
+        width: 100%;
+        order: 0;
     }
 }
 
