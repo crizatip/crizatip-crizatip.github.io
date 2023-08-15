@@ -16,7 +16,7 @@ class Contacts extends React.Component{
                         <img src={linkedin} alt="logo linkedin"></img>
                     </a>
                 </div>
-                <p>Caso tenha alguma pergunta, duvida ou oportindade <br></br> pode me enviar um e-mail agora mesmo!</p>
+                <p>Caso tenha alguma pergunta, duvida ou oportindade pode me enviar um e-mail agora mesmo!</p>
                
                 <a className='Contact-mail' href = "mailto:crizatip@gmail.com">Enviar Email</a>
 
