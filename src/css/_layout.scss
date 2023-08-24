@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 ////////////////////////////////////////////////////
 
 @keyframes colorChange{
@@ -54,7 +55,7 @@ table {
       background: $secondary;
     }
     100% {
-      background: white;
+      background: rgba(255, 255, 255, 0);
     }
   }
 
@@ -218,7 +219,7 @@ h1{
 }
 
 .musicApp:hover{
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(0, 0, 0, 0.116);
     h3{color: $primary;}
 }
 

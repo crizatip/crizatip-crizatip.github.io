@@ -1,0 +1,75 @@
+:root [data-theme = "white"] {
+    --general-bg-color: #FBFAFE;
+    --text-color: black;
+    --title-color:#480DEF;
+    --primary-color-black: #78F082;
+    --secondary-color-black:  #480DEF;
+    --profile-retangle-color: #480DEF;
+    --hover-project-color: rgba(56, 29, 131, 0.116);
+}
+:root [data-theme = "dark"] {
+    --general-bg-color: #1C1A27;
+    --text-color: white;
+    --title-color:#9068fc;
+    --primary-color-black: #9068fc;
+    --profile-retangle-color: #9068fc;
+    --secondary-color-black: #78F082;
+    --hover-project-color: rgba(255, 255, 255, 0.116);
+}
+  
+body {
+    background-color: var(--general-bg-color);
+    color: var(--text-color);
+    h1{
+        color: var( --title-color);
+    }
+    h3{
+        color:black
+    }
+    .title{
+        color: var(--title-color);
+    }
+
+    .Profile-retangle{
+        border-color: var(--profile-retangle-color);
+    }    
+
+    .Project{
+        h3{
+            color: var(--text-color)
+        }
+        p{
+            background-color: var(--primary-color-black);
+            color: var(--text-color);
+        }
+        span{
+            color: var(--secondary-color-black);
+        }
+    }
+
+    .musicApp:hover{
+        background-color: var(--hover-project-color);
+        h3{color: var(--secondary-color-black);}
+    }
+    
+  }
+
+.button_darkmode{
+    img{
+        width: 40px;
+        margin: 20px 20px;
+        rect{
+            fill: #ed6866;
+        }
+    }
+
+    .black{
+        filter: invert(23%) sepia(76%) saturate(2723%) hue-rotate(247deg) brightness(81%) contrast(142%);
+    }
+    .white{
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: invert(77%) sepia(49%) saturate(433%) hue-rotate(69deg) brightness(98%) contrast(98%);
+    }
+}
+

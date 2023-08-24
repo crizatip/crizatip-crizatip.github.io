@@ -4,8 +4,8 @@ class Background extends React.Component{
     render(){
         return(
             <div className='bg'>
-            <div class="area" >
-              <ul class="squares">
+            <div className="area" >
+              <ul className="squares">
                     <li></li>
                     <li></li>
                     <li></li>
