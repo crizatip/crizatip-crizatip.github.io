@@ -15,7 +15,7 @@ class Description extends React.Component {
             <div className='detail'></div>
           </div>
           <p>
-          Sou um desenvolvedor web full-stack formado pela Trybe, com graduação em design. Meu objetivo é integrar habilidades projetuais e metodologias de design ao desenvolvimento web, com o intuito de criar soluções completas e visualmente atraentes.
+          Sou Desenvolvedor Web Full Stack, com graduação em Design e pós-graduação em Gestão de Projetos. Meu objetivo é integrar habilidades projetuais e metodologias de Design ao Desenvolvimento Web, com intuito de criar soluções cada vez mais completas, visualmente atraentes e aderentes às necessidades dos usuários.
           </p>
           <div className='Tecnologias'>
             <h3>Tecnologias que mais utilizo:</h3>

@@ -63,7 +63,6 @@ a{
 }
 
 .App{
-    background-color: $bg;
     font-family: 'Inter', sans-serif;
 }
 
@@ -113,7 +112,7 @@ h1{
 
     p{
         margin-bottom: 32px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         padding-left: 55px;
         line-height: 1.2em;
 
@@ -243,6 +242,7 @@ h1{
         text-align: center;
         margin: 10px;
         line-height: 1.5em;
+        width: 340px;
     }
 }
 
@@ -288,3 +288,4 @@ margin: 20px;
         animation-iteration-count: infinite;
     }
 }
+

@@ -1,0 +1,270 @@
+
+@media screen and ( max-width: 1100px ){
+    body{
+        margin: 0px auto;
+    }
+    
+.title{ 
+    color: $primary;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 2.5em;
+    margin: 60px auto;
+    padding-left: 18px;
+}
+
+.Projects{
+    position: relative;
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}  
+
+///////////////////////////////////////////////////////////
+    .Contact{
+        h2{
+            text-align: center;
+        }        
+        p{
+           font: 1em sans-serif;
+           width: 300px;
+           line-height: 25px;
+
+        }
+    }
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+@media screen and ( max-width: 900px ){
+    body{
+        width: 900px;
+        margin: 0px auto;
+    }
+    
+   
+
+/////////////////////////////////////////////////////////////////
+
+
+.title{ 
+    color: $primary;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 2.5em;
+    margin: 60px auto;
+    padding-left: 18px;
+}
+
+.Projects{
+    position: relative;
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.Project{
+  width: 800px;
+}
+
+.Contact{
+
+    h2{
+        text-align: center;
+    }        
+    p{
+       font: 1em sans-serif;
+       line-height: 25px;
+
+    }
+}
+
+}
+
+@media screen and ( max-width: 393px ){
+    body{
+        width: 393px;
+        margin: 0px auto;
+    }
+    
+
+   .bg{ 
+    .squares{
+        width: 393px;
+    }}
+   
+    .Description{
+        position: relative;
+        margin: 100px auto;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
+    
+    .Description-content{
+        .name{
+            margin-top: 50px;
+        }
+        h1{
+            padding-left: 16px;
+            margin-bottom: 30px;
+        }
+    
+        max-width: 393px;
+        display: flex;
+        position: relative;
+        margin: 0;
+        width: 393px;
+        flex-direction: column;
+        align-items: center;
+        img{
+           position: relative;
+           margin:0px, auto;
+           margin-bottom: 50px;
+           right: 0;
+           z-index: 1;
+           height: 200px;
+        }
+        p{
+            padding: 0;
+            font-size: 1.2em;
+            max-width: 350px;
+            text-align: center;
+
+        }
+    }
+
+    .Profile-retangle{
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 35px;
+        left: 80px;
+        z-index: 0;
+        margin: 0;
+    }
+
+
+    .Tecnologias{
+        h3{
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        ul{
+            color: $primary;
+        }
+        li{
+            margin-bottom: 8px;
+        }
+        background-color: $secondary;
+        padding: 10px 50px;
+    }
+
+
+/////////////////////////////////////////////////////////////////
+
+
+div{
+    max-width: 393px;
+}
+
+.title{ 
+    color: $primary;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 2.5em;
+    margin: 60px auto;
+    padding-left: 18px;
+}
+
+.Projects{
+    position: relative;
+    max-width: 393px;
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.Project{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    width: 100vh;
+    padding: 30px;
+    color: black;
+    padding: 0;
+    margin: 0px;
+    margin-top: 50px;
+    div{
+        display:contents;
+        flex-direction: column;
+        align-items: center;
+        span{
+            color: $primary;
+            position: absolute;
+            display: flex;
+            bottom: 10px;
+            margin: 0px auto;
+            word-spacing: 8px;
+            justify-content: center;
+        }
+    }
+    h3{
+        order: 1;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 1.7em;
+        text-align: center;
+        width: 300px;
+    }
+    p{
+        background-color: $secondary;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 275px;
+        height: 130px;
+        float: right;
+        padding: 20px;
+        line-height: 1.3em;
+        order: -1;
+    }
+
+    img{
+        height: 80%;
+        width: 80%;
+        order: 0;
+    }
+}
+///////////////////////////////////////////////////////////
+    .Contact{
+        h2{
+            text-align: center;
+        }        
+        p{
+           font: 1em sans-serif;
+           width: 240px;
+           line-height: 25px;
+
+        }
+    }
+}

@@ -15,7 +15,7 @@ class Projects extends React.Component {
                        <Project
                         prTitle = "Trybetunes"
                         img = {prImg1}
-                        textProject = "Aplicação capaz de reproduzir músicas das mais variadas bandas e artistas e editar o perfil da pessoa usuária logada."
+                        textProject = "Aplicação com solução de reprodução de músicas com variadas bandas, artistas e opção de edição de perfil da pessoa usuária logada."
                         tags = "React Git Redux Tailwind"
                        />
                    </a>
@@ -24,9 +24,9 @@ class Projects extends React.Component {
                         <a
                         href="https://github.com/crizatip">
                           <Project
-                        prTitle = "Projeto em desenvolvimento"
+                        prTitle = "Em desenvolvimento"
                         img = {prImg2}
-                        textProject = "Projeto ainda em desenvolvimento, você pode checar o progresso no meu github."
+                        textProject = "Projetos em desenvolvimento. Disponíveis para consulta da evolução através da minha página no GitHub."
                         tags = "React Git Redux"
                                            />
                                            </a>
